@@ -1,0 +1,112 @@
+```html
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portofolio Saya</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background: #222;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+    }
+    .container {
+      width: 90%;
+      max-width: 1000px;
+      margin: 20px auto;
+    }
+    .about, .projects, .contact {
+      margin-bottom: 50px;
+    }
+    h2 {
+      border-bottom: 2px solid #ddd;
+      padding-bottom: 5px;
+    }
+    .projects-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .project-card {
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      padding: 15px;
+      text-align: center;
+    }
+    .project-card img {
+      max-width: 100%;
+      border-radius: 5px;
+    }
+    footer {
+      text-align: center;
+      background: #222;
+      color: white;
+      padding: 15px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Portofolio Saya</h1>
+    <nav>
+      <a href="#about">Tentang Saya</a>
+      <a href="#projects">Karya</a>
+      <a href="#contact">Kontak</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <section id="about" class="about">
+      <h2>Tentang Saya</h2>
+      <p>Halo! Saya seorang kreator yang suka membuat karya di bidang [tuliskan bidangmu, misalnya: desain grafis, musik, tulisan, fotografi]. 
+      Website ini berisi koleksi karya saya.</p>
+    </section>
+
+    <section id="projects" class="projects">
+      <h2>Karya Saya</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <img src="https://via.placeholder.com/300x200" alt="Karya 1">
+          <h3>Judul Karya 1</h3>
+          <p>Deskripsi singkat karya pertama.</p>
+        </div>
+        <div class="project-card">
+          <img src="https://via.placeholder.com/300x200" alt="Karya 2">
+          <h3>Judul Karya 2</h3>
+          <p>Deskripsi singkat karya kedua.</p>
+        </div>
+        <div class="project-card">
+          <img src="https://via.placeholder.com/300x200" alt="Karya 3">
+          <h3>Judul Karya 3</h3>
+          <p>Deskripsi singkat karya ketiga.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <h2>Kontak</h2>
+      <p>Email: <a href="mailto:emailkamu@gmail.com">emailkamu@gmail.com</a></p>
+      <p>Instagram: <a href="https://instagram.com/username" target="_blank">@username</a></p>
+    </section>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Portofolio Saya</p>
+  </footer>
+</body>
+</html>
+```
